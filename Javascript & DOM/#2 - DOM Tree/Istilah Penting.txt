@@ -1,0 +1,3 @@
+Istilah penting :
+- NodeList
+- HTMLCollection

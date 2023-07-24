@@ -1,0 +1,13 @@
+Tipe - tipe node
+- Elemen
+- Attribute
+- Text
+- CData Section
+- Entity Reference
+- Entity
+- Proccessing Instruction
+- Comment
+- Document
+- Document Type
+- Document Fragment
+- Notation

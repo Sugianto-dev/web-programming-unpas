@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	line-height: 0; /* untuk menghilangkan space bawaan dibawah gambar */
+}
+
+body {
+	background-color: #ccc;
+	text-align: center;
+}
+
+.container {
+	width: 600px;
+	margin: 10px auto;
+	border: 5px solid white;
+	overflow: auto; /* untuk membungkus float pada .thumb */
+}
+
+.thumb {
+	width: 200px;
+	float: left; /* agar gambar berjejer ke kiri */
+	border: 2px solid white;
+	box-sizing: border-box; /* supaya tidak memperdulikan border yang tidak muat */
+}
+
+.thumb:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+@keyframes fadeIn {
+	to {
+		opacity: 1;
+	}
+}
+
+.fade {
+	opacity: 0;
+	animation: fadeIn 0.5s forwards;
+}
+
+.active {
+	opacity: 0.5;
+}

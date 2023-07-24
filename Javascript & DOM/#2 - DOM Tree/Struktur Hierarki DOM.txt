@@ -1,0 +1,4 @@
+Struktur Hierarki DOM :
+- Root Node
+- Parent Node
+- Child Node
